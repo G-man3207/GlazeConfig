@@ -153,6 +153,7 @@ window_rules:
         window_class: { not_regex: "OpusApp" }
       - window_process: { equals: "POWERPNT" }
       - window_process: { equals: "msrdc" }
+      - window_process: { equals: "mstsc" }
         window_class: { not_regex: "PPTFrameClass" }
 
 binding_modes:
